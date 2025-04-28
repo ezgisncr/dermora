@@ -1,0 +1,75 @@
+/* Blog Header */
+.blog-header {
+    text-align: center;
+    padding: 60px 10%;
+    background-color: #fff7f0;
+  }
+  
+  .blog-header h1 {
+    font-size: 36px;
+    color: #d96b8a;
+    margin-bottom: 10px;
+  }
+  
+  .blog-header p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Blog Kartları */
+  .blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 40px 10%;
+  }
+  
+  .blog-card {
+    background-color: #ffe5e0;
+    border-radius: 20px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .blog-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .blog-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .blog-card h2 {
+    font-size: 20px;
+    color: #a84d6a;
+    margin: 15px;
+  }
+  
+  .blog-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 0 15px 20px 15px;
+  }
+  
+  /* Buton */
+  .btn-read {
+    display: block;
+    margin: 10px 15px 20px 15px;
+    padding: 10px 15px;
+    background-color: #d96b8a;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-read:hover {
+    background-color: #a84d6a;
+  }
+  

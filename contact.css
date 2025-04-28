@@ -1,0 +1,92 @@
+/* İletişim Başlığı */
+.contact-header {
+    text-align: center;
+    padding: 60px 10%;
+    background-color: #fff7f0;
+  }
+  
+  .contact-header h1 {
+    font-size: 36px;
+    color: #d96b8a;
+    margin-bottom: 10px;
+  }
+  
+  .contact-header p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* İletişim Formu ve Bilgi Alanı */
+  .contact-container {
+    display: flex;
+    gap: 50px;
+    padding: 60px 10%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Form Alanı */
+  .contact-form {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #fff;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  .btn-send {
+    background-color: #d96b8a;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-send:hover {
+    background-color: #a84d6a;
+  }
+  
+  /* İletişim Bilgi Alanı */
+  .contact-info {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .contact-info h2 {
+    font-size: 24px;
+    color: #d96b8a;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info a {
+    color: #d96b8a;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
